@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAME.EE</title>
+    <link rel="stylesheet" href="assets/css/style.css"><link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+</head>
+
+<body>
+
+    <header>
+        <div class="title">NAME.EE
+            <div class="subtitle">Domeeni Registreerimine</div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html" class="step">
+            1
+            <div class="step-name">Domeeni Valimine</div>
+        </a><a href="step2.html" class="step active">
+            2
+            <div class="step-name">Kliendi Andmed</div>
+        </a><a href="step3.html" class="step">
+            3
+            <div class="step-name">Makseviis</div>
+        </a><a href="step4.html" class="step">
+            4
+            <div class="step-name">Kinnitamine</div>
+        </a>
+    </nav>
+    <main>
+        <form action="step3.html" method="post" class="form">
+            <div class="form-group">
+                <label for="domainname">Isik</label>
+                <select>
+                    <option value="eraisik">Eraisik</option>
+                    <option value="organisatsioon">Organisatsioon</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="nimi">Ees- ja perekonnanimi</label>
+                <input type="text" placeholder="Johnny Sins" name="nimi" id="nimi">
+            </div>
+            <div class="form-group">
+                <label for="domainname">E-Mail</label>
+                <input type="email" placeholder="johnny.sins@example.com" name="domainname" id="domainname">
+            </div>
+            <p class="form-notice">Jätkates kinnitan, et olen tingimusi lugenud ja neist aru saanud.</p>
+            <input class="form-submit" type="submit" value="Jätka">
+        </form>
+    </main>
+    <footer>&copy; 2023 NAME OÜ</footer>
+</body>
+
+</html>
